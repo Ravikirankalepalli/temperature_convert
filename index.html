@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <link rel="stylesheet" href="index.css"/>
     <script>
         let convertFrom = document.getElementById("from")
-let convertTo = document.getElementById("to")
-let toBeConverted = document.getElementById("value")
-let calculateTheAnswer = document.getElementById("calculate")
-let answerElement = document.getElementById("answers")
+        let convertTo = document.getElementById("to")
+        let toBeConverted = document.getElementById("value")
+        let calculateTheAnswer = document.getElementById("calculate")
+        let answerElement = document.getElementById("answers")
 
-let headingElement = document.createElement("h5");
-headingElement.textContent = "";
-document.body.appendChild(headingElement);
+        let headingElement = document.createElement("h5");
+        headingElement.textContent = "";
+        document.body.appendChild(headingElement);
 
 function error() {
     headingElement.textContent = "Enter a valid input";
