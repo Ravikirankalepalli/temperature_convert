@@ -31,6 +31,7 @@ function calculate() {
             let toBeConvertedValue = toBeConverted.value;
             answerElement.value = toBeConvertedValue;
             headingElement.textContent = "";
+            error();
         } else if (convertTo.value === "kelvin") {
             let answerOfTheValue = 0;
             let toBeConvertedValue = toBeConverted.value;
